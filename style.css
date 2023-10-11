@@ -1,0 +1,192 @@
+body {
+    display: block;
+}
+
+nav {
+    display: block;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navigation bar */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 15px;
+}
+
+.header-logo {
+    font-size: 24px;
+    padding: 25px;
+}
+
+.nav-links a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* Hero Section */
+
+.header-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 75px;
+}
+
+.text-box {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 25px;
+    color: #F9FAF8
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: extra-bold;
+    font-size: 48px;
+    max-width: 300px;
+    max-height: 80px;
+}
+
+p {
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: #E5E7EB;
+ }
+
+ button {
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    padding: 4px;
+ }
+
+ .header-image {
+    display: flex;
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    /*display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 24px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.body {
+    background-color: #1F2937;
+    padding-top: 1px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.body-text {
+    color: white;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+button {
+    max-width: 100px;
+    background-color: ;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
