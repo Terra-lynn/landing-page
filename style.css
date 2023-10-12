@@ -16,7 +16,7 @@ nav {
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #1F2937;
+    background-color: black;
     color: #F9FAF8;
     width: 100%;
 }
@@ -30,9 +30,10 @@ nav {
     margin-right: 15px;
 }
 
-.header-logo {
-    font-size: 24px;
-    padding: 25px;
+.header-logo img{
+    width: 75px;
+    height: 75px;
+    padding: 15px 50px ;
 }
 
 .nav-links a {
@@ -49,8 +50,30 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: black;
     padding: 75px;
+    
+}
+
+.left-side, .right-side {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding-left: 100px;
+    
+}
+.left-side {
+    border-left: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+}
+
+.right-side {
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
 }
 
 .text-box {
@@ -59,7 +82,8 @@ nav {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    padding-left: 25px;
+    margin-right: 35px;
+    gap: 24px;
     color: #F9FAF8
 }
 
@@ -81,21 +105,76 @@ p {
  button {
     text-align: center;
     border: none;
-    border-radius: 10px;
-    background-color: #3882F6;
-    color: white;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: black;
+    font-size: 18px;
     padding: 4px;
  }
 
  .header-image {
     display: flex;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 250px;
+    margin-right: 200px;
 }
 
+/* Content Section */
 
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: gray;
+    justify-content: space-evenly;
+    height: 400px;
+}
+.image-container {
+    display: flex;
+}
 
+.ghost-friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    gap: 10px;
+    padding: 24px;
+}
 
+.ghost-friend-img {
+    width: 250px;
+    height: 225px; 
+    border: 5px dotted black;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Large text quote section */
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+h5 {
+    font-size: 35px;
+}
+
+h4 {
+    display: flex;
+    margin-left: 480px;
+}
 
 
 
