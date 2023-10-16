@@ -215,7 +215,13 @@ h4 {
     font-size: 2em;
 }
 
-
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -299,10 +305,3 @@ button {
     background-color: ;
 }
 
-.footer {
-    background-color: #1F2937;
-    color: #E5E7EB;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
