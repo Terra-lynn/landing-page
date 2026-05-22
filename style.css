@@ -1,307 +1,103 @@
 body {
-    display: block;
-}
-
-nav {
-    display: block;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Navigation bar */
-
-.navbar {
-    display: flex;
-    align-items: center;
-    background-color: black;
-    color: #F9FAF8;
-    width: 100%;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: 15px;
-}
-
-.header-logo img{
-    width: 75px;
-    height: 75px;
-    padding: 15px 50px ;
-}
-
-.nav-links a {
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #E5E7EB;
-    font-size: 18px;
-}
-
-/* Hero Section */
-
-.header-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    padding: 75px;
-    
-}
-
-.left-side, .right-side {
-    display: flex;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-    padding-left: 100px;
-    
-}
-.left-side {
-    border-left: 5px solid white;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-}
-
-.right-side {
-    border-right: 5px solid white;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
-}
-
-.text-box {
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    margin-right: 35px;
-    gap: 24px;
-    color: #F9FAF8
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: extra-bold;
-    font-size: 48px;
-    max-width: 300px;
-    max-height: 80px;
-}
-
-p {
-    font-size: 18px;
-    padding: 0;
-    margin: 0;
-    color: #E5E7EB;
- }
-
- button {
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    background-color: lightgray;
-    color: black;
-    font-size: 18px;
-    padding: 4px;
- }
-
- .header-image {
-    display: flex;
-    width: 300px;
-    height: 250px;
-    margin-right: 200px;
-}
-
-/* Content Section */
-
-.content {
-    display: flex;
-    flex-flow: row wrap;
-    background-color: gray;
-    justify-content: space-evenly;
-    height: 400px;
-}
-.image-container {
-    display: flex;
-}
-
-.ghost-friend {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px;
-    gap: 10px;
-    padding: 24px;
-}
-
-.ghost-friend-img {
-    width: 250px;
-    height: 225px; 
-    border: 5px dotted black;
-}
-
-h2 {
-    display: flex;
-    justify-content: center;
-}
-
-h3 {
-    display: flex;
-    justify-content: center;
-}
-
-/* Large text quote section */
-
-.quote-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: black;
-    color: white;
-}
-
-h5 {
-    font-size: 35px;
-}
-
-h4 {
-    display: flex;
-    margin-left: 480px;
-}
-
-/* Call to Action section */
-
-.sign-up-section {
-    display: flex;
-    justify-content: center;
-    background-color: gray;
-}
-
-.sign-up {
-    display: flex;
-    text-align: left;
     background-color: white;
-    border: 5px solid black;
-    border-radius: 10px;
-    margin: 100px 50px;
-    padding: 50px 100px;
-}
-
-.text-elements {
-    padding: 0;
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
+/* Section A */
 
-.sign-up-text h3 {
-    color: black;
-    font-size: 24px;
-}
 
-.sign-up-text p {
-    color: black;
-    font-size: 15px;
-}
-
-.sign-up-button button {
+/* Section B */
+.container-b {
     display: flex;
-    flex: 0;
-    font-size: 2em;
-}
-
-.footer {
-    background-color: black;
-    color: white;
-    display: flex;
+    gap: 50px;
     align-items: center;
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-.navbar {
-    /*display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.logo {
-    display: inline-block;
-    font-size: 24px;
-    color: #F9FAF8;
-    text-decoration: none;
-}
-
-.nav-links {
-    list-style: none;
+.card-flex {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.nav-item a {
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
+.card {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.sub-text {
+    width: 100%;
+    text-align: center;
+}
+
+/* Section C */
+.container-c {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+}
+
+.text-c {
+    padding: 100px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+figcaption {
+    text-align: right;
+    font-weight: 900;
+}
+
+
+
+/* Section D */
+.container-d {
+    margin: 0 auto;
+    background-color: #3882F6;
+    padding: 30px 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.cta-text {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.body {
-    background-color: #1F2937;
-    padding-top: 1px;
-}
-
-.left-side {
-    display: flex;
-    flex-direction: column;
-    /*justify-content: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.right-side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.body-text {
+#button-d {
+    border: 2px solid white;
+    border-radius: 8px;
     color: white;
-    max-width: 350px;
+    align-self: center;
+    padding: 5px 30px;
+}
+
+/* Footer */
+.footer {
+    background-color: #1F2937;
+    color: white;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    flex-shrink: 0;
+    margin-top: auto;
 }
 
-
-
-
-
-
-
-button {
-    max-width: 100px;
-    background-color: ;
+.section-b,
+.section-c,
+.section-d,
+.footer {
+    width: 1200
 }
-
