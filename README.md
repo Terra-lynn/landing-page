@@ -1,2 +1,2 @@
 # landing-page
-Creating a landing page for a business
+Creating a landing page for pratice.
